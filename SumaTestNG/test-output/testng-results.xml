@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63973" started-at="2018-07-29T15:04:33Z" finished-at="2018-07-29T15:05:37Z">
+  <suite name="Suite" duration-ms="9086" started-at="2018-07-29T15:10:03Z" finished-at="2018-07-29T15:10:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="63973" started-at="2018-07-29T15:04:33Z" finished-at="2018-07-29T15:05:37Z">
-      <class name="TestChromeOptions">
-        <test-method status="PASS" signature="funWithYahooPage()[pri:1, instance:TestChromeOptions@5474c6c]" name="funWithYahooPage" duration-ms="63937" started-at="2018-07-29T08:04:33Z" finished-at="2018-07-29T08:05:37Z">
+    <test name="Test" duration-ms="9086" started-at="2018-07-29T15:10:03Z" finished-at="2018-07-29T15:10:13Z">
+      <class name="RadioButton">
+        <test-method status="PASS" signature="funWithYahooPage()[pri:1, instance:RadioButton@77f03bb1]" name="funWithYahooPage" duration-ms="8896" started-at="2018-07-29T08:10:03Z" finished-at="2018-07-29T08:10:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- funWithYahooPage -->
-      </class> <!-- TestChromeOptions -->
+        <test-method status="PASS" signature="totalRadioButtons()[pri:2, instance:RadioButton@77f03bb1]" name="totalRadioButtons" duration-ms="161" started-at="2018-07-29T08:10:12Z" finished-at="2018-07-29T08:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalRadioButtons -->
+      </class> <!-- RadioButton -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
